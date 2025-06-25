@@ -3,7 +3,7 @@ from processed_data import processed_crypto_data
 import plotly.express as px
 import pandas as pd
 
-st.title("Cryptocurrency Data Visualizations")
+st.title("Cryptocurrency Data Visualizations and plots")
 
 # Ensure data is available
 if processed_crypto_data is not None and not processed_crypto_data.empty:
