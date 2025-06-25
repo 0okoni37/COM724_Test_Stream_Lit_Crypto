@@ -3,7 +3,7 @@ from processed_data import processed_crypto_data
 import plotly.express as px
 import pandas as pd
 
-st.title("Cryptocurrency Data Visualization")
+st.title("Cryptocurrency Data Visualizations")
 
 # Ensure data is available
 if processed_crypto_data is not None and not processed_crypto_data.empty:
@@ -36,7 +36,7 @@ if processed_crypto_data is not None and not processed_crypto_data.empty:
         )
         st.plotly_chart(fig_scatter)
     else:
-        st.write("Selected data not available for scatter plot for test.")
+        st.write("Selected data not available for scatter plot.")
 
     st.markdown("---")  # Separator
 
