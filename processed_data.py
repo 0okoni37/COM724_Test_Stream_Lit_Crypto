@@ -74,3 +74,5 @@ processed_crypto_data = pivoted_data[existing_sorted_columns]
 
 # Sort data by date in descending order
 processed_crypto_data = processed_crypto_data.sort_index(ascending=False)
+
+processed_crypto_data.to_csv('processed_crypto_data.csv')
